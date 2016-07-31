@@ -5,11 +5,11 @@
 template<typename Item>
 struct ListIter : public std::iterator<std::forward_iterator_tag, Item>
 {
-	Item *ptr;								// 容器与迭代器的纽带
+	Item *ptr;								  // 容器与迭代器的纽带
 
-	ListIter(Item *p = 0) :ptr(p) { }		// 构造函数，初始化ptr指针
-	Item &operator*() const { return *ptr; } // 返回容器（本例为链表）的节点引用
-	Item *operator->() const { return ptr; } // 返回容器（本例为链表）的节点地址
+	ListIter(Item *p = 0) :ptr(p) { }		  // 构造函数，初始化ptr指针
+	Item &operator*() const { return *ptr; }  // 返回容器（本例为链表）的节点引用
+	Item *operator->() const { return ptr; }  // 返回容器（本例为链表）的节点地址
 
 	//  指向容器（本例为链表）的下一个节点，i++
 	ListIter &operator++(){

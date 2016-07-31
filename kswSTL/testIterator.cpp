@@ -7,6 +7,7 @@
 #include "ListItem.h"
 #include<iostream>
 
+/*
 int _tmain(int argc, _TCHAR* argv[])
 {
 	kswList<int>myList; //  ¶¨ÒåÈÝÆ÷
@@ -25,3 +26,4 @@ int _tmain(int argc, _TCHAR* argv[])
 	system("pause");
 	return 0;
 }
+*/

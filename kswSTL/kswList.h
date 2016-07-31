@@ -8,7 +8,7 @@ template < class T>
 class kswList
 {
 public:
-	kswList() :_end(NULL), _front(NULL) { }         // 构造函数，初始化头指针、尾指针  
+	kswList() :_end(NULL), _front(NULL),_size(0) { }         // 构造函数，初始化头指针、尾指针  
 	void insert_front(T value);			            //插入节点到链表头部
 	void insert_end(T value);		            	//插入节点到链表尾部
 	ListItem<T>*front()const{ return _front; }      // 返回头指针  
@@ -30,7 +30,7 @@ private:
 template<typename T>
 void kswList<T>::insert_front(T value){
 	kswList<T>::_size++;
-	ListItem<T>*tmp = new ListItem<T>(value);
+	ListItem<T> *tmp = new ListItem<T>(value);
 	if (typename kswList<T>::_front == NULL) {
 		typename kswList<T>::_front = tmp;
 		typename kswList<T>::_end = tmp;

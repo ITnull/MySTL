@@ -31,6 +31,18 @@
     <Filter Include="源文件\testAlgobase">
       <UniqueIdentifier>{c9aa233e-317b-4684-9f3c-c52b403b3fa2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\testVector">
+      <UniqueIdentifier>{f465a247-7167-4eaa-ab3a-2b4d51f566e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vector">
+      <UniqueIdentifier>{8c649e2f-5e28-4e25-8c05-77ac6e012e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\list">
+      <UniqueIdentifier>{92905248-f01d-4f23-8c26-5a24e0d9c5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\testList">
+      <UniqueIdentifier>{2eebbef7-73ae-414b-a9cb-c92e62243b44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -54,6 +66,24 @@
     <ClInclude Include="kswIterator.h">
       <Filter>头文件\iterator</Filter>
     </ClInclude>
+    <ClInclude Include="kswVector.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="globalConstruct.h">
+      <Filter>头文件\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件\list</Filter>
+    </ClInclude>
+    <ClInclude Include="ListIterator.h">
+      <Filter>头文件\list</Filter>
+    </ClInclude>
+    <ClInclude Include="_kswList.h">
+      <Filter>头文件\list</Filter>
+    </ClInclude>
+    <ClInclude Include="testList.h">
+      <Filter>源文件\testList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -67,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="testIterator.cpp">
       <Filter>源文件\testIterator</Filter>
+    </ClCompile>
+    <ClCompile Include="testVector.cpp">
+      <Filter>源文件\testVector</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

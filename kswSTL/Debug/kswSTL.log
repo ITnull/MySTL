@@ -1,32 +1,24 @@
-﻿生成启动时间为 2016-07-31 11:09:55。
+﻿生成启动时间为 2016-07-31 22:10:49。
      1>项目“D:\learngit\kswSTL\kswSTL\kswSTL.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\kswSTL.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt testIterator.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\kswSTL.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\kswSTL.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt allocator.cpp kswSTL.cpp testIterator.cpp testVector.cpp
+         testVector.cpp
          testIterator.cpp
-     1>d:\learngit\kswstl\kswstl\kswiterator.h(24): warning C4172: 返回局部变量或临时变量的地址
-                 d:\learngit\kswstl\kswstl\kswiterator.h(21): 编译类 模板 成员函数“ListIter<ListItem<T>> &ListIter<ListItem<T>>::operator ++(int)”时
-                 with
-                 [
-                     T=int
-                 ]
-                 d:\learngit\kswstl\kswstl\testiterator.cpp(22): 参见对正在编译的函数 模板 实例化“ListIter<ListItem<T>> &ListIter<ListItem<T>>::operator ++(int)”的引用
-                 with
-                 [
-                     T=int
-                 ]
-                 d:\learngit\kswstl\kswstl\testiterator.cpp(22): 参见对正在编译的类 模板 实例化“ListIter<ListItem<T>>”的引用
-                 with
-                 [
-                     T=int
-                 ]
+         kswSTL.cpp
+         allocator.cpp
+         正在生成代码...
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learngit\kswSTL\Debug\kswSTL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\learngit\kswSTL\Debug\kswSTL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learngit\kswSTL\Debug\kswSTL.lib" /MACHINE:X86 Debug\allocator.obj
          Debug\kswSTL.obj
          Debug\stdafx.obj
          Debug\testIterator.obj
-         kswSTL.vcxproj -> D:\learngit\kswSTL\Debug\kswSTL.exe
-     1>已完成生成项目“D:\learngit\kswSTL\kswSTL\kswSTL.vcxproj”(Build 个目标)的操作。
+         Debug\testVector.obj
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 ___tmainCRTStartup 中被引用
+     1>D:\learngit\kswSTL\Debug\kswSTL.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“D:\learngit\kswSTL\kswSTL\kswSTL.vcxproj”(Build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:01.54
+已用时间 00:00:04.35
