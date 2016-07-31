@@ -1,5 +1,5 @@
-#ifndef _CGH_ALLOC
-#define _CGH_ALLOC
+#ifndef _KSW_ALLOC
+#define _KSW_ALLOC
 
 #include <new>
 #include <cstddef>

@@ -7,6 +7,7 @@
 #include <iostream>
 using namespace::std;
 
+/*
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int arr[5] = { 0, 1, 2, 3, 4 };
@@ -22,3 +23,4 @@ int _tmain(int argc, _TCHAR* argv[])
 	system("pause");
 	return 0;
 }
+*/

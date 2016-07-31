@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\iterator">
+      <UniqueIdentifier>{e8bcd3dc-727a-4c07-8e01-7e79e33768f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\testIterator">
+      <UniqueIdentifier>{c48506e6-7e72-4b38-b0a3-2b63baa75c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\allocator">
+      <UniqueIdentifier>{e4db4dd6-473f-46c0-9d47-577c8a8fcfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\testAllocator">
+      <UniqueIdentifier>{6268450e-ad67-4975-9bd9-36d022c980da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algobase">
+      <UniqueIdentifier>{ac1ea07d-5989-472a-b234-5cc50d06f839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\testAlgobase">
+      <UniqueIdentifier>{c9aa233e-317b-4684-9f3c-c52b403b3fa2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,8 +42,17 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="kswList.h">
+      <Filter>头文件\iterator</Filter>
+    </ClInclude>
     <ClInclude Include="kswAlloc.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ListItem.h">
+      <Filter>头文件\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="kswIterator.h">
+      <Filter>头文件\iterator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -36,7 +63,10 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="allocator.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\testAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="testIterator.cpp">
+      <Filter>源文件\testIterator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
