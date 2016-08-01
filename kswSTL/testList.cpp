@@ -13,6 +13,7 @@
 #include "_kswList.h"
 using namespace::std;
 
+/*
 int _tmain(int argc, _TCHAR* argv[])
 {
 	using namespace::KSW;
@@ -76,3 +77,5 @@ int _tmain(int argc, _TCHAR* argv[])
 	system("pause");
 	return 0;
 }
+
+*/

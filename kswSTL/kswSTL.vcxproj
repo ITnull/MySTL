@@ -83,6 +83,8 @@
   <ItemGroup>
     <ClInclude Include="globalConstruct.h" />
     <ClInclude Include="kswAlloc.h" />
+    <ClInclude Include="kswDeque.h" />
+    <ClInclude Include="kswDequeIterator.h" />
     <ClInclude Include="kswIterator.h" />
     <ClInclude Include="kswList.h" />
     <ClInclude Include="kswVector.h" />
@@ -100,6 +102,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="testDeque.cpp" />
     <ClCompile Include="testIterator.cpp" />
     <ClCompile Include="testList.cpp" />
     <ClCompile Include="testVector.cpp" />

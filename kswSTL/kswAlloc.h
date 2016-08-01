@@ -385,7 +385,7 @@ namespace KSW
 			Alloc::deallocate(p);
 		}
 	};
-#pragma endregion
+		#pragma endregion
 }
 
 #endif

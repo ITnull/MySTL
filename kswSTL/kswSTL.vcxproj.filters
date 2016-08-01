@@ -43,6 +43,12 @@
     <Filter Include="源文件\testList">
       <UniqueIdentifier>{2eebbef7-73ae-414b-a9cb-c92e62243b44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\deque">
+      <UniqueIdentifier>{e54bf4ef-6fe0-4596-a181-890a547636d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\testDeque">
+      <UniqueIdentifier>{fb5abae9-009a-4746-adc9-36630270ad8c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -81,6 +87,12 @@
     <ClInclude Include="_kswList.h">
       <Filter>头文件\list</Filter>
     </ClInclude>
+    <ClInclude Include="kswDequeIterator.h">
+      <Filter>头文件\deque</Filter>
+    </ClInclude>
+    <ClInclude Include="kswDeque.h">
+      <Filter>头文件\deque</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -100,6 +112,9 @@
     </ClCompile>
     <ClCompile Include="testList.cpp">
       <Filter>源文件\testList</Filter>
+    </ClCompile>
+    <ClCompile Include="testDeque.cpp">
+      <Filter>源文件\testDeque</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
