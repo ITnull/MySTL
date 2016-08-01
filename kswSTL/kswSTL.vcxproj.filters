@@ -81,9 +81,6 @@
     <ClInclude Include="_kswList.h">
       <Filter>头文件\list</Filter>
     </ClInclude>
-    <ClInclude Include="testList.h">
-      <Filter>源文件\testList</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -100,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="testVector.cpp">
       <Filter>源文件\testVector</Filter>
+    </ClCompile>
+    <ClCompile Include="testList.cpp">
+      <Filter>源文件\testList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
